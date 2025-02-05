@@ -22,7 +22,7 @@ The chatbot generates responses using **Groq LLM (Llama3-70B or Mixtral-8x7B).**
 git clone https://github.com/OmSagar-250403/SmartHire.git
 
 
-2️⃣ Create a Virtual Environment (Optional, Recommended)
+**2️⃣ Create a Virtual Environment (Optional, Recommended)**
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate      # On Windows
