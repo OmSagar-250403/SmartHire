@@ -1,37 +1,23 @@
-# Chat with PDF
+# 🧠 Chat with Web Content using FAISS & Groq 🚀
 
-This is a Streamlit application that allows users to upload PDF documents and chat with them. The application extracts text from the uploaded PDFs, splits the text into manageable chunks, and utilizes a conversational AI model to answer user queries based on the content of the PDFs.
+This project builds a **chatbot** that can answer questions based on scraped **webpage content**.  
+It uses **Word2Vec for embeddings** (no API needed) and **FAISS** for vector storage.  
+The chatbot generates responses using **Groq LLM (Llama3-70B or Mixtral-8x7B).**  
 
-## Features
+---
 
-- Upload multiple PDF files.
-- Extract and process text from the uploaded PDFs.
-- Chat with the content of the PDFs using an AI model.
-- Maintain conversation history.
+## 🌟 Features
+✅ **Scrape Web Content** – Extracts text from any webpage.  
+✅ **Local Word2Vec Embeddings** – No API required for embedding generation.  
+✅ **FAISS Vector Search** – Efficient retrieval of relevant content.  
+✅ **Groq AI for Responses** – Uses Llama3-70B/Mixtral for generating intelligent answers.  
+✅ **Save Content as PDF** – Download scraped text as a PDF.  
 
-## Technologies Used
+---
 
-- **Streamlit**: For building the web application.
-- **PyPDF2**: For extracting text from PDF files.
-- **LangChain**: For handling text processing, embeddings, and conversational AI.
-- **FAISS**: For efficient similarity search and clustering of text embeddings.
-- **Google Generative AI**: For generating embeddings and responses.
+## 🛠️ Installation & Setup
 
-## Installation
-
-To run this application locally, follow these steps:
-
-1. **Clone the repository** (if applicable):
-
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-=======
-# Content_Engine
->>>>>>> origin/main
-
-# Screenshots
-
-![alt text](<Screenshot 2024-11-16 202704.png>) 
-![alt text](<Screenshot 2024-11-16 202626.png>)
-![alt text](<Screenshot 2024-11-16 203644.png>)
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/OmSagar-250403/SmartHire.git
+cd chat-with-web

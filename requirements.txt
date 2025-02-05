@@ -1,8 +1,10 @@
 streamlit
-google-generativeai
+requests
+beautifulsoup4
+gensim
+numpy
+groq
 python-dotenv
-langchain
-PyPDF2
+fpdf
 faiss-cpu
-langchain_google_genai
-hugchat
+langchain-community
