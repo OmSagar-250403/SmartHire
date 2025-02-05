@@ -15,28 +15,29 @@ The chatbot generates responses using **Groq LLM (Llama3-70B or Mixtral-8x7B).**
 
 ---
 
+---
+
 ## 🛠️ Installation & Setup
 
- 1️⃣ Clone the Repository
-```sh
+### **✅ 1️⃣ Clone the Repository**
 git clone https://github.com/OmSagar-250403/SmartHire.git
+cd SmartHire
 
 
- 2️⃣ Create a Virtual Environment (Optional, Recommended)
-
+### **✅ 2️⃣ Create a Virtual Environment (Optional, Recommended)**
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate      # On Windows
 
 
-3️⃣ Install Dependencies
+### **✅ 3️⃣ Install Required Packages**
 pip install -r requirements.txt
 
-
-4️⃣ Set Up API Key
+### **✅ 4️⃣ Set Up API Key**
 API=your_groq_api_key_here
 
 
 🚀 Running the Application
 streamlit run app.py
+
 
